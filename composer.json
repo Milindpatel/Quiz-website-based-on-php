@@ -1,0 +1,19 @@
+{
+    "name": "milindpatel/quizomania",
+    "description": "Java and C multiple-choice quiz website in plain PHP",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.2",
+        "ext-pdo": "*"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.5"
+    }
+}
